@@ -1,0 +1,36 @@
+input[type=text]{
+  background-color: #fefefe;
+  height: 60px;
+  padding-left: 20px;
+}
+
+.btn-todo{
+  height: 60px;
+  background-color: #e9eeff;
+  color: #4772fe;
+  border: none;
+ }
+
+.card{
+  border: none;
+  border-left: 5px solid #0000;
+  margin-top: 50px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+
+.cat-tools{
+  display: none;
+}
+
+.cat-tools i{
+  margin: 0px 1px;
+  cursor: pointer;
+}
+.categories-list .card:hover{
+  cursor: pointer;
+  background-color: #f8f8f8;
+}
+.categories-list .card:hover .cat-tools{
+  display: inline;
+}
